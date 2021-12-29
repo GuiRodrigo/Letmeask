@@ -1,14 +1,9 @@
-import { Button } from './components/button'
+import {Home} from "./pages/Home"
+import {NewRoom} from "./pages/newRoom"
 
 function App() {
   return (
-    <div>
-      <Button />
-      <Button />
-      <Button />
-      <Button />
-      <Button />
-    </div>
+    <NewRoom/>
   );
 }
 
